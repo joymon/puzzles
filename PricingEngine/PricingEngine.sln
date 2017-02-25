@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingEngine", "PricingEngine\PricingEngine.csproj", "{15DF0648-F6CF-4AA8-999F-DFF8D8551189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingEngine.Tests", "PricingEngine.Tests\PricingEngine.Tests.csproj", "{7B97F0AA-3A78-465C-8267-7EBC12B4228F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingEngine.ConsoleRunner", "PricingEngine.ConsoleRunner\PricingEngine.ConsoleRunner.csproj", "{6F7C9425-B17F-4FF6-BE91-4C1544714030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4D61ACA4-E106-47D6-960C-47F75A3A52A1}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DF0648-F6CF-4AA8-999F-DFF8D8551189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DF0648-F6CF-4AA8-999F-DFF8D8551189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DF0648-F6CF-4AA8-999F-DFF8D8551189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DF0648-F6CF-4AA8-999F-DFF8D8551189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B97F0AA-3A78-465C-8267-7EBC12B4228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B97F0AA-3A78-465C-8267-7EBC12B4228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B97F0AA-3A78-465C-8267-7EBC12B4228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B97F0AA-3A78-465C-8267-7EBC12B4228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7C9425-B17F-4FF6-BE91-4C1544714030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7C9425-B17F-4FF6-BE91-4C1544714030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7C9425-B17F-4FF6-BE91-4C1544714030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7C9425-B17F-4FF6-BE91-4C1544714030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://joymon.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PricingEngine\\PricingEngine.csproj
+		SccProjectName1 = PricingEngine
+		SccLocalPath1 = PricingEngine
+		SccProjectUniqueName2 = PricingEngine.Tests\\PricingEngine.Tests.csproj
+		SccProjectName2 = PricingEngine.Tests
+		SccLocalPath2 = PricingEngine.Tests
+		SccProjectUniqueName3 = PricingEngine.ConsoleRunner\\PricingEngine.ConsoleRunner.csproj
+		SccProjectName3 = PricingEngine.ConsoleRunner
+		SccLocalPath3 = PricingEngine.ConsoleRunner
+	EndGlobalSection
+EndGlobal

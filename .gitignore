@@ -3,3 +3,8 @@
 ################################################################################
 
 /PricingEngine/OpenCover
+/PricingEngine/packages
+/PricingEngine/**/bin/Debug
+/PricingEngine/**/obj/Debug
+*.user
+/PricingEngine/.vs/PricingEngine/v14
