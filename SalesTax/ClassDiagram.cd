@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SalesTaxDemo.Program" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.MusicCD" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MusicCD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.ChocolateBox" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChocolateBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.PerfumeBottle" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PerfumeBottle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.Item" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAgAAAAAAAAAYQAAAAAABAAAAAAgIAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SalesTaxDemo.TaxableItem">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAABAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>TaxableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.ImportTaxable">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImportTaxableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.SalesTaxable">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SalesTaxableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.ChocolateBar" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChocolateBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxDemo.HeadachePills" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HeadachePills.cs</FileName>
+      <NewMemberFileName>HeadAchePills.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SalesTaxDemo.IItem" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAgAAAAAAAAAYQAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
