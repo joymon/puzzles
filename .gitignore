@@ -2,11 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/PricingEngine/OpenCover
-/PricingEngine/packages
-/**/bin/Debug
-/**/obj/Debug
+/**/OpenCover
+/**/packages
+/**/bin/
+/**/obj/
 /**/obj/x86/Debug
 *.user
-/PricingEngine/.vs/PricingEngine/v14
 *.suo
+/**/.vs
