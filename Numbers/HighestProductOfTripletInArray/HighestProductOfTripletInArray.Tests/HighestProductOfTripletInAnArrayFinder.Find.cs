@@ -38,11 +38,18 @@ namespace HighestProductOfTripletInArray.Tests
             Assert.AreEqual(1200, result.Aggregate((x, y) => x * y));
         }
         [TestMethod]
-        public void WhenThereAreMinus_10_3_5_6_20_ElementsInArray_ReturnTheSameElements()
+        public void WhenThereAreMinus_Neg10_Neg3_Neg5_Neg6_Neg20_ElementsInArray_ReturnTheSameElements()
         {
             int[] arr = { -10, -3, -5, -6, -20 };
             int[] result = this.finder.Find(arr);
             Assert.AreEqual(-90, result.Aggregate((x, y) => x * y));
+        }
+        [TestMethod]
+        public void WhenThereAreMinus_Neg10_Neg3_Neg5_0_Neg20_ElementsInArray_Return_Neg10_Neg5_Neg20()
+        {
+            int[] arr = { -10, -3, -5, 0, -20 };
+            int[] result = this.finder.Find(arr);
+            Assert.AreEqual(-10*-5*-20, result.Aggregate((x, y) => x * y));
         }
         [TestMethod]
         public void WhenThereAre_1_4_3_6_7_0_ElementsInArray_ReturnTheSameElements()
@@ -52,21 +59,21 @@ namespace HighestProductOfTripletInArray.Tests
             Assert.AreEqual(168, result.Aggregate((x, y) => x * y));
         }
         [TestMethod]
-        public void WhenThereAre_5_7_4_2_1_9_ElementsInArray_ReturnTheSameElements()
+        public void WhenThereAre_Neg5_Neg7_4_2_1_9_ElementsInArray_Return_Neg5_Neg7_9()
         {
             int[] arr = { -5, -7, 4, 2, 1, 9 };  // Max Product of 3 numbers = -5 * -7 * 9
             int[] result = this.finder.Find(arr);
-            Assert.AreEqual(-5*-7*9, result.Aggregate((x, y) => x * y));
+            Assert.AreEqual(-5 * -7 * 9, result.Aggregate((x, y) => x * y));
         }
         [TestMethod]
-        public void WhenThereAre_4_5_19_3_ElementsInArray_ReturnTheSameElements()
+        public void WhenThereAre_4_5_Neg19_3_ElementsInArray_Return_4_5_3()
         {
             int[] arr = { 4, 5, -19, 3 };       // Max Product of 3 numbers = 4 * 5 * 3
             int[] result = this.finder.Find(arr);
             Assert.AreEqual(4 * 5 * 3, result.Aggregate((x, y) => x * y));
         }
         [TestMethod]
-        public void WhenThereAre_4_4_19_3_ElementsInArray_ReturnTheSameElements()
+        public void WhenThereAre_4_4_Neg19_3_ElementsInArray_Return_4_4_3()
         {
             int[] arr = { 4, 4, -19, 3 };       // Max Product of 3 numbers = 4 * 4 * 3
             int[] result = this.finder.Find(arr);
