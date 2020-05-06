@@ -10,3 +10,4 @@
 *.user
 *.suo
 /**/.vs
+/**/node_modules
