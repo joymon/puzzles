@@ -1,0 +1,15 @@
+{
+  "name": "electronic-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bron electronic-shop.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bron": "^1.1.1"
+  }
+}
